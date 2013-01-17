@@ -1,0 +1,25 @@
+
+
+development:
+  adapter: mysql2
+  database: cinema
+  username: root
+  password:
+  host: localhost
+
+test:
+  adapter: mysql2
+  database: cinema
+  username: root
+  password:
+  host: localhost
+
+production:
+  adapter: mysql2
+  database: cinema
+  username: root
+  password:
+  host: localhost
+
+
+
