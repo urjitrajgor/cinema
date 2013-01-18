@@ -19,7 +19,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'pg'
+group :production do gem 'pg' end
 
 gem 'omniauth-facebook'
 gem 'jquery-rails'
